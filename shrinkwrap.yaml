@@ -1,0 +1,7 @@
+exports.run = async(client, message) => {
+
+if(db.fetch(`bakimmod`)) {
+
+  if(message.author.id !== "704505210738835486","777814715815952414") return message.channel.send('```Our discord bot is in developement , Please try again later or contact  Buuenx.jpg#1401 or  mstaer#0001```')
+
+}
